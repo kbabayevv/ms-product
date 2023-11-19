@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  datasource:
+    url: jdbc:postgresql://localhost:5555/product_db
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
